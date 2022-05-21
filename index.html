@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <main class="container">
+      <header class="header">
+        <h1>Calculator</h1>
+      </header>
+      <section class="display">
+        <div class="previousvalue"></div>
+        <input type="text" class="currentvalue" value="0" readonly />
+      </section>
+
+      <button class="clear-entry function">CE</button>
+      <button class="clear function">C</button>
+      <button class="delete function">
+        <ion-icon name="backspace"></ion-icon>
+      </button>
+      <button class="operator divide function">÷</button>
+
+      <button class="number function">7</button>
+      <button class="number function">8</button>
+      <button class="number function">9</button>
+      <button class="operator function">*</button>
+
+      <button class="number function">4</button>
+      <button class="number function">5</button>
+      <button class="number function">6</button>
+      <button class="operator function">&dash;</button>
+
+      <button class="number function">1</button>
+      <button class="number function">2</button>
+      <button class="number function">3</button>
+      <button class="operator function">+</button>
+
+      <button class="sign-change">+/-</button>
+      <button class="number function">0</button>
+      <button class="number function">.</button>
+      <button class="equals function">=</button>
+    </main>
+
+    <!-- IonIcons  -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
